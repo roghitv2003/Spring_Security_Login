@@ -6,7 +6,11 @@
 <meta charset= "ISO-8859-1">
 <title>HOME</title>
 </head>
-<body>
-<h3>welcome spring boot security</h3>
-</body>
+    <body>
+        <h3>welcome spring boot security</h3>
+
+        <form action="/logout" method="post">
+            <button type="submit">Logout</button>
+        </form>
+    </body>
 </html>
